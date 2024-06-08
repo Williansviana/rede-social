@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+}
+
+
+.email{
+    padding: 1px;
+    padding: 2px;
+    
+    
+    
+    
+}
+
+.senha{
+    padding: 2px;
+    margin: 5px;
+    
+
+}
+
+.btn{
+    font-size: 15px;
+    margin: 10px; 
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: green
+    
+    
+     
+}
+
+.btn:hover{
+    color: blue;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+
+
+.linha{
+    background-color: black;
+}
+
+.cabecalho{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    padding: 20px;
+    
+    
+    
+   
+}
+
+.h1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.frase{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    display: flex;
+    margin-left: 500px;
+    
+   
+}
+
+.caixa-maior{
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 80px;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+  
+    
+}
+
+fieldset{
+    border: 3px solid rgb(48, 68, 19);
+}
+
+.caixa-meio-1{
+    
+    margin: 4px;
+}
+
+.caixa-meio2{
+    margin: 4px;
+}
+.caixa-meio3{
+    margin: 4px;
+}
+
+.caixa-meio4{
+    margin: 3px;
+}
+
+.botao{
+
+    font-size: 17px;
+    margin-left: 41%;
+    padding: 2px;
+    border: none;
+    border-radius: 3px;
+    background: green;
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    color: blue;
+    font-size: 18px;
+    transition: 0.3s color ease-in-out;
+}
+
+.footer{
+    
+    bottom: 20px;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+
+
+}
